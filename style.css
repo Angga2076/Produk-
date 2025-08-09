@@ -1,0 +1,29 @@
+body {
+    background-color: #0d1117;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #00f;
+    margin-bottom: 20px;
+}
+
+.typing-text {
+    font-size: 1.5rem;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+}
